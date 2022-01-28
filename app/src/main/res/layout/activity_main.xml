@@ -299,7 +299,107 @@
 
 
 
+
+
     </LinearLayout>
 
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+     >
+
+        <Button
+            android:id="@+id/advance"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:backgroundTint="#858395"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:tag="advance"
+            android:text="@string/advance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+       />
+
+    <LinearLayout
+        android:id="@+id/advView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050505"
+
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnMod"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#796CF3"
+            android:fontFamily="sans-serif-black"
+            android:onClick="awesomeButtonClicked"
+            android:padding="10dp"
+            android:tag="%"
+            android:text="%"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPow"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#796CF3"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:tag="POW"
+            android:text="POW"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMax"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#796CF3"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:tag="MAX"
+            android:text="MAX"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMini"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#796CF3"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:tag="MINI"
+            android:text="MIN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
 </LinearLayout>

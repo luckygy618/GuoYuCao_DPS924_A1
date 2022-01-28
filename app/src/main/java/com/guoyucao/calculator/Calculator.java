@@ -23,7 +23,11 @@ public class Calculator {
          strSet.add("+");
         strSet.add("-");
         strSet.add("*");
-        strSet.add("/");
+        strSet.add("POW");
+        strSet.add("MAX");
+        strSet.add("MINI");
+        strSet.add("%");
+
 
     }
 
@@ -102,6 +106,26 @@ public class Calculator {
                 break;
             case "*":
                 sum *= num;
+                break;
+            case "POW":
+                sum = num * num;
+                break;
+            case "%":
+                sum %= num;
+                break;
+            case "MAX":
+                if (sum>=num){
+                    sum = sum;
+                }else{
+                    sum = num;
+                }
+                break;
+            case "MINI":
+                if (sum<=num){
+                    sum = sum;
+                }else{
+                    sum = num;
+                }
                 break;
             case "/":
                 if(num!=0){

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GuoYuCao Calculator</string>
+    <string name="advance">ADVANCE - SCIENTIFIC</string>
+    <string name="standard">STANDARD</string>
+
+
+
+
 </resources>

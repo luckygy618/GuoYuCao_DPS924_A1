@@ -23,6 +23,7 @@ public class Calculator {
          strSet.add("+");
         strSet.add("-");
         strSet.add("*");
+        strSet.add("/");
         strSet.add("POW");
         strSet.add("MAX");
         strSet.add("MINI");
@@ -66,7 +67,7 @@ public class Calculator {
                 total = operatorCalculate( list.get(index-1), Integer.valueOf(list.get(index)), total);
                 index +=2;
             }else{
-                errorMsg = "Error: Not An Operator";
+                errorMsg = "Error: Not An Operator, returns -99999999";
                 return -99999999;
             }
 
@@ -108,7 +109,9 @@ public class Calculator {
                 sum *= num;
                 break;
             case "POW":
-                sum = num * num;
+                int res = (int)Math.pow(sum, num);
+                sum = res;
+
                 break;
             case "%":
                 sum %= num;

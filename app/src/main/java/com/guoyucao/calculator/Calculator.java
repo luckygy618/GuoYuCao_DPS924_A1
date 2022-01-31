@@ -8,6 +8,14 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+Name: GuoYu Cao
+ID: 061341145
+Email: gcao4@myseneca.ca
+DPS924 Assignment 1
+ */
+
+
 public class Calculator {
     protected int sum;
     protected String result;
